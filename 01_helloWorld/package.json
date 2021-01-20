@@ -1,0 +1,30 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/extension",
+  "dependencies": {
+    "vscode": "^1.1.37"
+  },
+  "engines": {
+    "vscode": "^1.1.37"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "contributes": {
+    "commands":[
+      {
+        "command": "extension.sayHello",
+        "title": "Hello world"
+      }
+    ]
+  },
+  "author": "",
+  "license": "ISC"
+
+}
